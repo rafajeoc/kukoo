@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
+/*input:invalid { border: 1px solid red;   }
+input:valid   { border: 1px solid green; }*/
+
+body {
+  font-family: "Open Sans";
+}
+
+.indent-small {
+  margin-left: 4px;
+}
+.indent-small2 {
+  margin-left: 3px;
+}
+.form-group.internal {
+  margin-bottom: 0;
+}
+
+.dialog-panel {
+  margin: 10px;
+}
+
+.control-label {
+  font-weight: 600;
+  color: #777;  
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+  vertical-align: baseline;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.panel-heading h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    width: 75%;
+    padding-top: 8px;
+}
+.panel-heading button {
+  margin-right: 5px;
+}
+
+.alert {
+  display: none;
+}
+
+.divEntidadeImpostoAgenda {
+    overflow: hidden;
+}
+.nomeEntidadeImpostoAgenda {
+    width: 35%;
+    float: left;
+}
+.arquivoEntidadeImpostoAgenda {
+    
+}
+
+/* Específicos */
+#panelImpostos {
+    width: 70%;
+    margin: auto;
+}

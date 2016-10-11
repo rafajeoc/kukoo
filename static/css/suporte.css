@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+
+body {
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+form {
+    padding: 0 200px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+form input[type="text"] {
+    padding: 0 10px;
+}

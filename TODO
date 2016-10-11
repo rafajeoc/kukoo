@@ -1,0 +1,18 @@
+TODO LIST
+
+ALTERAR SENHA
+
+Models:
+    - Passar os métodos get, get_by_id, save e remove para o próprio model.
+    
+Views:
+    - Transformar o funcionamento da licença ativa em boolean nas páginas;
+
+Controllers:
+    - Para cada Controller, passar para variável da classe os nomes dos models e das views a serem carregadas;
+
+SQL Helpers:
+    - Criar os SQL Helpers para:
+        * Criar atributos para conter os nomes das tabelas;
+        * Criar os getters das tabelas;
+        * Centralizar os métodos básicos (ModelPadraoDAO);
